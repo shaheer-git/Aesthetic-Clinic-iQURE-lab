@@ -81,38 +81,38 @@ const SERVICES = [
     id: 'laser-hair',
     title: 'Laser Hair Removal',
     subtitle: 'Alma laser technology — all skin types',
-    image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600',
+    image: 'https://images.pexels.com/photos/35103882/pexels-photo-35103882.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: 'carbon-laser',
     title: 'Carbon Laser Toning',
     subtitle: 'Deep cleanse & skin brightening',
-    image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600',
+    image: 'https://images.pexels.com/photos/29021129/pexels-photo-29021129.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: 'tattoo',
     title: 'Laser Tattoo Removal',
     subtitle: 'Safe, effective ink clearance',
-    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800',
+    image: 'https://images.pexels.com/photos/35103914/pexels-photo-35103914.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'acne',
     title: 'Acne Treatment',
     subtitle: 'Targeted solutions for clear skin',
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600',
+    image: 'https://images.pexels.com/photos/3985354/pexels-photo-3985354.jpeg?auto=compress&cs=tinysrgb&w=800',
     isWide: true,
   },
   {
     id: 'ipixel',
     title: 'iPixel Laser Treatment',
     subtitle: 'Skin resurfacing & rejuvenation',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600',
+    image: 'https://images.pexels.com/photos/29021130/pexels-photo-29021130.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: 'prp',
     title: 'GFC PRP Hair Treatment',
     subtitle: 'Clinically proven hair fall reduction',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600',
+    image: 'https://images.pexels.com/photos/5069506/pexels-photo-5069506.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 ]
 
@@ -183,9 +183,9 @@ const FAQ_ITEMS = [
 // ─── About Mosaic Images ──────────────────────────────────────────────────────
 
 const ABOUT_IMAGES = [
-  'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600',
-  'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600',
-  'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600',
+  'https://images.pexels.com/photos/10822254/pexels-photo-10822254.jpeg?auto=compress&cs=tinysrgb&w=600',
+  'https://images.pexels.com/photos/3985354/pexels-photo-3985354.jpeg?auto=compress&cs=tinysrgb&w=600',
+  'https://images.pexels.com/photos/35103916/pexels-photo-35103916.jpeg?auto=compress&cs=tinysrgb&w=600',
 ]
 
 // ─── Navbar ───────────────────────────────────────────────────────────────────
@@ -279,7 +279,7 @@ function Hero() {
             </div>
           </div>
           <div ref={imgRef} className="anim-hidden">
-            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+            <img src="https://images.pexels.com/photos/19239114/pexels-photo-19239114.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt="Aesthetic+ Clinic laser treatment"
               className="w-full h-[500px] md:h-[600px] object-cover rounded-3xl shadow-2xl" />
           </div>
