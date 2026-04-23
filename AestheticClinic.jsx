@@ -206,7 +206,7 @@ function Navbar({ scrolled, mobileMenuOpen, setMobileMenuOpen }) {
         <div className="hidden md:flex items-center gap-4">
           <a href="tel:07676795999" style={{ fontFamily: "'DM Sans', sans-serif" }}
             className="text-sm text-[#231510]/70 hover:text-[#231510] transition-colors">076767 95999</a>
-          <a href="#faq" style={{ fontFamily: "'DM Sans', sans-serif" }}
+          <a href="#book" style={{ fontFamily: "'DM Sans', sans-serif" }}
             className="bg-[#231510] text-white text-sm px-5 py-2 rounded-full hover:opacity-80 transition-opacity">
             Book Appointment
           </a>
@@ -507,7 +507,7 @@ function FAQ({ openFaq, setOpenFaq }) {
 function CTABanner() {
   const ref = useScrollReveal('animate-scale-in', 0)
   return (
-    <section className="py-24 px-6 bg-[#E9D2CA] text-center">
+    <section id="book" className="py-24 px-6 bg-[#E9D2CA] text-center">
       <div ref={ref} className="anim-hidden max-w-4xl mx-auto">
         <h2 style={{ fontFamily: "'Cormorant Garamond', serif" }}
           className="text-4xl md:text-6xl italic font-semibold text-[#231510] leading-tight mb-4">
